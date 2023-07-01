@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tugas Membuat Tabel</title>
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link href="bootstrap-3.3.7/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap -->
+ 		<style>
+ 			.active th {
+    position: sticky;
+    top: 0;
+      }
+      thead {
+    position: sticky;
+    top: 0;
+      }
+ 		</style>	
+  </head>
+  <body>
+  	<div class="container mt-3">
+  		<table class="table table-bordered table-hover table-condensed mydatatable" style="width: 100%px;">
+				<thead>
+					<tr class="active" style="text-align: center;">
+						<th style="width: 50px;">No</th>
+						<th>NIM</th>
+						<th>Nama Mahasiswa</th>
+						<th>Judul</th>
+						<th>Ketua</th>
+						<th>Sekretaris</th>
+						<th>Anggota I</th>
+						<th>Anggota II</th>
+						<th>Anggota III/Pengarah</th>
+						<th>Anggota IV/Pengarah</th>
+						<th>Jam</th>
+						<th>Tempat</th>
+						<th>Tanggal</th>
+						<th>Hari</th>
+					</tr>
+				</thead>
+
+				<tbody >
+					<tr>
+						<th>1</th>
+						<td>42516010</td>
+						<td>TAUFIK HIDAYAT</td>
+						<td>Rancang Bangun Sistem Survei Dinamis dengan Arsitektur </td>
+						<td>Irfan Syamsuddin,S.T. M.Com.ISM.,Ph.D.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Muhammad Nur Yasir Utomo, S.ST, M.Eng.</td>
+						<td>Irmawati,S.T.,M.T.</td>
+						<td>14:00-14:30</td>
+						<td>Lab CNAP/ bit.ly/tkjpnup_room</td>
+						<td>14 Januari 2021</td>
+						<td>Kamis</td>
+					</tr>
+					<tr>
+						<th>2</th>
+						<td>42517004</td>
+						<td>Muhammad Yusril Zaenal</td>
+						<td>Distribusi Surat E-Tilang Berbasis Android</td>
+						<td>Muh. Fajri Raharjo,S.T, M.T.</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Meylanie Olivya,S.T.,M.T.</td>
+						<td>Drs.Kasim,M.T.</td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>08:30-09:30</td>
+						<td>Lab Sisfo/ bit.ly/tkjpnup_room</td>
+						<td>16 April 2021</td>
+						<td>Jumat</td>
+					</tr>
+					<tr>
+						<th>3</th>
+						<td>42518018</td>
+						<td>Muhammad Fauzan Bahri</td>
+						<td>PENERAPAN FEATURE SELECTION DALAM MENDETEKSI </td>
+						<td>Muh. Fajri Raharjo,S.T, M.T.</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Meylanie Olivya,S.T.,M.T.</td>
+						<td>Eddy Tungadi,S.T., M.T.</td>
+						<td>Dr.Eng. Sarwo Pranoto, S.T., M.Eng</td>
+						<td>Irfan Syamsuddin,S.T. M.Com.ISM.,Ph.D.</td>
+						<td>08:30-09:00</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>4</th>
+						<td>42518038</td>
+						<td>M. Irzhan Syah Imran</td>
+						<td>Perancangan Dan Implementasi Sistem Evaluasi Itposmo Untuk Pengambilan Keputusan Bersama </td>
+						<td>Eddy Tungadi,S.T., M.T.</td>
+						<td>Meylanie Olivya,S.T.,M.T.</td>
+						<td>Dr.Eng. Sarwo Pranoto, S.T., M.Eng</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Muh. Fajri Raharjo,S.T, M.T.</td>
+						<td>Irfan Syamsuddin,S.T. M.Com.ISM.,Ph.D.</td>
+						<td>10:00-10:30</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>5</th>
+						<td>42518055</td>
+						<td>Akmal</td>
+						<td>Pengukuran Kualitas Udara Tpa Antang Menggunakan </td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>Sahbuddin Abdul Kadir, ST., MT.</td>
+						<td>Drs.Kasim,M.T.</td>
+						<td>Muhammad Nur Yasir Utomo, S.ST, M.Eng.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>08:30-09:00</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>6</th>
+						<td>42518073</td>
+						<td>Putri Lisanda</td>
+						<td>Rancang Bangun Smart Gateway Berbasis Fog Computing Untuk Integrasi Internet Of Things (Iot) Dan Cloud Computing</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>Sahbuddin Abdul Kadir, ST., MT.</td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Muhammad Nur Yasir Utomo, S.ST, M.Eng.</td>
+						<td>Drs.Kasim,M.T.</td>
+						<td>09:00-09:30</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>7</th>
+						<td>42518071</td>
+						<td>Ninda Ramadani</td>
+						<td>Implementasi Sistem Real-Time Dengan Mengintegrasikan Stream Processing Dan Teknik Kueri</td>
+						<td>Drs.Kasim,M.T.</td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Sahbuddin Abdul Kadir, ST., MT.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Muhammad Nur Yasir Utomo, S.ST, M.Eng.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>09:30-10:00</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>8</th>
+						<td>42518061</td>
+						<td>Edgard Alexander Tamarindang</td>
+						<td>Sistem Rekomendasi Hotel Dengan Menggunakan Graph </td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Iin Karmila Yusri,S.ST., M.Eng., Ph.D.</td>
+						<td>Sahbuddin Abdul Kadir, ST., MT.</td>
+						<td>Drs.Kasim,M.T.</td>
+						<td>Muhammad Nur Yasir Utomo, S.ST, M.Eng.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>10:00-10:30</td>
+						<td>bit.ly/tkjpnup_room</td>
+						<td>05 Oktober 2021</td>
+						<td>Selasa</td>
+					</tr>
+					<tr>
+						<th>9</th>
+						<td>42518067</td>
+						<td>LULU YULIANTI PANGESTU</td>
+						<td>MONITORING BATAS WILAYAH LAUT MENGGUNAKAN MACHINE LEARNING BERBASIS DATA GEOSPASIAL</td>
+						<td>Muh. Fajri Raharjo,S.T, M.T.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>Irfan Syamsuddin,S.T. M.Com.ISM.,Ph.D.</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Meylanie Olivya,S.T.,M.T.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Sesi Pagi (08:00-09:00)</td>
+						<td>Lab CNAP/ bit.ly/tkjpnup_room</td>
+						<td>07 Oktober 2021</td>
+						<td>Kamis</td>
+					</tr>
+					<tr>
+						<th>10</th>
+						<td>42518074</td>
+						<td>SITI ANNISA SAHARANTI</td>
+						<td>SELEKSI X-RAY PASIEN COVID-19 BERBASIS ALGORITMA CNN</td>
+						<td>Muh. Fajri Raharjo,S.T, M.T.</td>
+						<td>Rini Nur,S.T., M.T.</td>
+						<td>Zawiyah Saharuna,S.T.,M.Eng.</td>
+						<td>Meylanie Olivya,S.T.,M.T.</td>
+						<td>Irfan Syamsuddin,S.T. M.Com.ISM.,Ph.D.</td>
+						<td>Ir.Dahlia,M.T.</td>
+						<td>Sesi Pagi (09:00-10:00)</td>
+						<td>Lab CNAP/ bit.ly/tkjpnup_room</td>
+						<td>07 Oktober 2021</td>
+						<td>Kamis</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<th style="width: 50px;">No</th>
+						<th>NIM</th>
+						<th>Nama Mahasiswa</th>
+						<th>Judul</th>
+						<th>Ketua</th>
+						<th>Sekretaris</th>
+						<th>Anggota I</th>
+						<th>Anggota II</th>
+						<th>Anggota III/Pengarah</th>
+						<th>Anggota IV/Pengarah</th>
+						<th>Jam</th>
+						<th>Tempat</th>
+						<th>Tanggal</th>
+						<th>Hari</th>
+				</tfoot>
+			</table>
+		</div>
+
+				<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+				<script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+				<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+				<script>
+					var table = $('.mydatatable').DataTable();
+
+					$('.mydatatable tfoot th').each(function (){
+						var title = $(this).text();
+						$(this).html('<input type="text" placeholder="Search"'+title+'" />');
+					});
+
+					table.column().every(function(){
+						var that = this;
+						$('input', this.footer() ).on('keyup change', function(){
+								if(that.search() !== this.value ){
+									that.search(this.value).draw();
+								}
+						});
+					});
+
+				</script>
+
+	</body>
+
+</html>
